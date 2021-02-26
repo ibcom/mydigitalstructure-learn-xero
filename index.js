@@ -86,10 +86,9 @@
 		}
 	});
 
-	1/ DOES refresh-token exist for user - if not got to proxy-connect 
+	DOES refresh-token exist for user - if not got to proxy-connect 
 			-- user being the integration proxy.
 
-	2/ GET CONTACTS
 */
 
 exports.handler = function (event, context, callback)
